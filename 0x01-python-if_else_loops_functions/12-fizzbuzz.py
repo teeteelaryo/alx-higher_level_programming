@@ -16,5 +16,6 @@ def fizzbuzz():
             print('{:d}'.format(n), end=' ')
 
 
-
-fizzbuzz()
+if __name__ == '__main__':
+    fizzbuzz()
+    

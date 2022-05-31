@@ -5,6 +5,6 @@ def pow(a, b):
     return a ** b
 
 
-
-
-print(pow(10, 2))
+if __name__ == '__main__':
+    print(pow(10, 2))
+    
