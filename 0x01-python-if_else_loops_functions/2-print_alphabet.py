@@ -6,4 +6,3 @@ def print_low_alpha():
 
 if __name__ == '__main__':
     print_low_alpha()
-

@@ -12,4 +12,3 @@ def get_hexa(number):
 if __name__ == '__main__':
     for number in range(99):
         print('{:d} = 0x{}'.format(number, get_hexa(number)))
-
