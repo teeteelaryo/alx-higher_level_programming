@@ -13,3 +13,4 @@ def remove_char_at(str, n):
 
 if __name__ == '__main__':
     print(remove_char_at("Holberton School", 3))
+    

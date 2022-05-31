@@ -7,3 +7,4 @@ if __name__ == '__main__':
             print('{:02d}'.format(n), end=', ')
         else:
             print('{:02d}'.format(n))
+            
