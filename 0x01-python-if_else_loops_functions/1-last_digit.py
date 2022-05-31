@@ -30,4 +30,4 @@ if __name__ == '__main__':
     number = get_randn()
     last_digit = get_last_digit(number)
     print_last_digit(last_digit)
-    
+
