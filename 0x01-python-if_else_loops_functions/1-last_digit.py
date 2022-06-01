@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import random
 
+
 def get_randn():
     number = random.randint(-10000, 10000)
     return number
@@ -30,4 +31,5 @@ if __name__ == '__main__':
     number = get_randn()
     last_digit = get_last_digit(number)
     print_last_digit(last_digit)
+
 
