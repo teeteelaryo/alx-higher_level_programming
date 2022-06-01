@@ -32,4 +32,3 @@ if __name__ == '__main__':
     last_digit = get_last_digit(number)
     print_last_digit(last_digit)
 
-
