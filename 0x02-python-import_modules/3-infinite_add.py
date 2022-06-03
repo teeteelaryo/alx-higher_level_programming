@@ -9,4 +9,3 @@ if __name__ == '__main__':
         sum += int(arg)
 
     print('{:d}'.format(sum))
-

@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 if __name__ == '__main__':
     import sys
     from calculator_1 import add, sub, mul, div
@@ -22,4 +20,3 @@ if __name__ == '__main__':
         print('{:d} * {:d} = {:d}'.format(a, b, mul(a, b)))
     else:
         print('{:d} / {:d} = {:d}'.format(a, b, div(a, b)))
-
