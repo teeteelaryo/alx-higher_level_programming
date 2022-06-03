@@ -8,3 +8,4 @@ if __name__ == '__main__':
     for st in name_list:
         if not st.startswith('__'):
             print('{:s}'.format(st))
+

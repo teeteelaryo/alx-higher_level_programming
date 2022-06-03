@@ -13,3 +13,4 @@ if __name__ == '__main__':
 
     for i, arg in enumerate(argv[1:], start=1):
         print('{:d}: {:s}'.format(i, arg))
+
