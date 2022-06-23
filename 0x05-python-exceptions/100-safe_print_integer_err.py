@@ -1,12 +1,13 @@
 #!/usr/bin/python3
+
+import sys
+
+
 def safe_print_integer_err(value):
-    import sys
-    strmen = "Exception: "
+
     try:
         print("{:d}".format(value))
-        return True
-    except (ValueError, TypeError) as men:
-        strmen += str(men)
-        strmen += "\n"
-        sys.stderr.write(strmen)
+    except Exception as e:
+        print("Exception: " + str(e), file=sys.stderr)
         return False
+    return True
